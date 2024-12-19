@@ -15,6 +15,11 @@ public class RotatingAnArray {
         int d2 = 3;
         rotateArray(arr2, d2);
         System.out.println("Rotated Array: " + Arrays.toString(arr2));
+        
+        int[] arr3 = {1, 2, 3, 4, 5};
+        int d3 = 1;
+        rotateArray(arr3, d3);
+        System.out.println("Rotated Array: " + Arrays.toString(arr3));
 	}
 
 	private static void rotateArray(int[] arr, int d) {

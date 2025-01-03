@@ -9,6 +9,10 @@ public class FindLargestNumber {
 		
 		System.out.println(findLargestNumber(arr1));
 		
+        int[] arr2= {25,35,89,1,65,93,22,34,74,100};
+		
+		System.out.println(findLargestNumber2(arr2));
+		
 	}
 	
 	public static int findLargestNumber(int[] arr) {
@@ -29,6 +33,24 @@ public class FindLargestNumber {
 		return largest;
 		
 	}
+	
+	
+  public static int findLargestNumber2(int[] arr) {
+		
+		int largest = arr[0];
+		
+		for (int num : arr) {
+			
+			if(num > largest) {
+				
+				largest = num;
+			}
+		}
+		
+		return largest;
+		
+	}
+	
 	
 
 }

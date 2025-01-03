@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore IDE-specific files (add as needed)
+*.log
+*.idea/
+*.iml
+*.swp
+
+# Ignore build and dependency directories (example for Maven or Gradle)
+target/
+build/
+*.class
